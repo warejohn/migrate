@@ -2,6 +2,8 @@
 
 Converts GitHub Actions `main.workflow` files into the new `.yml` syntax. **Note:** using this tool doesn't affect your ability to use the new YAML syntax, wait until you hear from us before making the migration.
 
+To report an issue not specifically related to this CLI tool (e.g runtime issues, features you would like to see in GitHub Actions etc), please follow the [standard beta contact instructions](https://help.github.com/en/articles/about-github-actions#contacting-support).
+
 ## Install
 
 Pre-built binaries are available for Linux, OSX and Windows, and it can be built for any environment that Go supports. Head over to the [releases](https://github.com/actions/migrate/releases) tab, and download the archive for your operating system:
