@@ -1,6 +1,6 @@
 # migrate-actions tool
 
-Converts GitHub Actions `main.workflow` files into the new `.yml` syntax. **Note:** using this tool doesn't affect your v2 beta status, wait until you hear from us before making the migration.
+Converts GitHub Actions `main.workflow` files into the new `.yml` syntax. **Note:** using this tool doesn't affect your ability to use the new YAML syntax, wait until you hear from us before making the migration.
 
 ## Install
 
