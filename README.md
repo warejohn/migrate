@@ -14,8 +14,8 @@ and unarchive it.
 
 ## Usage
 
-Once you've downloaded and unarchived the tool, navigate to a repository using Actions via a `main.workflow` file and run the `migrate-actions` executable (`migrate-actions.exe` on windows),
-locating it by the full path to the executable e.g `~/Downloads/migrate-actions-osx/migrate-actions` on OSX.
+Once you've downloaded and unarchived the tool, navigate to a repository using Actions via a `main.workflow` file and run the `migrate-actions` executable (`migrate-actions.exe` on windows) without any arguments,
+locating the executable by its full path, e.g `~/Downloads/migrate-actions-osx/migrate-actions` on OSX.
 
 Given an existing `.github/main.workflow`:
 
