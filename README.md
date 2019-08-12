@@ -1,10 +1,10 @@
 # migrate-actions tool
 
-Converts GitHub Actions `main.workflow` files into the new `.yml` syntax. Pre-built binaries are available for Linux, OSX and Windows, and it can be built for any environment that Go supports.
+Converts GitHub Actions `main.workflow` files into the new `.yml` syntax. **Note:** using this tool doesn't affect your v2 beta status, wait until you hear from us before making the migration.
 
 ## Install
 
-Head over to the [releases](https://github.com/actions/migrate/releases) tab, and download the archive for your operating system:
+Pre-built binaries are available for Linux, OSX and Windows, and it can be built for any environment that Go supports. Head over to the [releases](https://github.com/actions/migrate/releases) tab, and download the archive for your operating system:
 
 - Windows: migrate-actions-windows.zip
 - Linux: migrate-actions-linux.tar
