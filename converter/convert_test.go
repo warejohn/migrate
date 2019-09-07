@@ -104,7 +104,7 @@ jobs:
 	})
 }
 
-func TestConvertOneSchedules(t *testing.T) {
+func TestConvertOneSchedule(t *testing.T) {
 	assertCorrect(t, eg{
 		input: `workflow "scheduled" {
   on = "schedule(* * * * *)"
@@ -126,7 +126,7 @@ action "A" {
 `,
 		output: map[string]string{
 			".github/workflows/schedule-scheduled.yml": `on:
-  schedules:
+  schedule:
   - cron: '* * * * *'
 name: scheduled
 jobs:
@@ -138,7 +138,7 @@ jobs:
       uses: ./A
 `,
 			".github/workflows/schedule-scheduled-two.yml": `on:
-  schedules:
+  schedule:
   - cron: '* * * * *'
 name: scheduled two
 jobs:
