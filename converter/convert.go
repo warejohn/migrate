@@ -2,11 +2,12 @@ package converter
 
 import (
 	"fmt"
-	"github.com/pkg/errors"
 	"io"
 	"regexp"
 	"strconv"
 	"strings"
+
+	"github.com/pkg/errors"
 
 	"github.com/actions/workflow-parser/model"
 	"github.com/actions/workflow-parser/parser"
@@ -169,7 +170,7 @@ func convertGithubEnvironmentReferences(s string) string {
 func writeOn(w *workflow, on model.On) {
 	if o, ok := on.(*model.OnSchedule); ok {
 		w.OnSchedule = map[string][]map[string]string{
-			"schedules": {
+			"schedule": {
 				{
 					"cron": o.Expression,
 				},
