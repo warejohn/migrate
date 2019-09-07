@@ -1,5 +1,5 @@
 on:
-  schedules:
+  schedule:
   - cron: 00 08 * * 1
 name: Top 5
 jobs:
